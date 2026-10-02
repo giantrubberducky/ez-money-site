@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — EZ Money</title>
+  <meta name="description" content="How EZ Money collects, uses, protects and deletes your information.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="top">
+    <div class="prose-wrap">
+      <a class="brand" href="./"><img src="assets/favicon.png" alt="">EZ Money</a>
+      <nav class="nav" aria-label="Main">
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="prose-wrap doc">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective October 2, 2026</p>
+
+    <div class="callout"><p><strong>The short version:</strong> EZ Money uses your transactions to show you where your money goes. We never see your bank login, we don't sell your data, we don't show ads, and you can delete everything from inside the app at any time.</p></div>
+
+    <p>This policy explains what information the EZ Money iPhone app and this website (together, "EZ Money", "we", "us") collect, why, who we share it with, and the choices you have. If you have a question, email <a href="mailto:ezmoneysupport@gmail.com">ezmoneysupport@gmail.com</a>.</p>
+
+    <h2>1. Information we collect</h2>
+    <h3>Account information</h3>
+    <ul>
+      <li><strong>Sign in with Apple.</strong> When you sign in, Apple gives us a unique account identifier and an email address. If you choose "Hide My Email", we receive an Apple relay address instead of your real email. We don't receive your name unless you choose to share it.</li>
+    </ul>
+
+    <h3>Bank information (through Plaid)</h3>
+    <p>When you connect a bank, you log in through <a href="https://plaid.com" rel="noopener">Plaid</a>, a service used by thousands of finance apps. <strong>Your bank username and password go to Plaid and your bank, never to us.</strong> With your permission, Plaid sends us:</p>
+    <ul>
+      <li>The name of your bank, and for each account its name, type (for example, checking or credit card) and the last 4 digits of the account number. We don't receive or store full account numbers.</li>
+      <li>Your transactions starting on the 1st of the month you connect: the amount, the date, the merchant name and logo, whether the transaction is still pending, and Plaid's suggested category.</li>
+    </ul>
+
+    <h3>Information you create in the app</h3>
+    <ul>
+      <li>The categories you file transactions into, any custom categories you make, transactions you mark as a regret or ignore, and notes you add.</li>
+      <li>Your settings, such as whether you track income and when you want your daily reminder.</li>
+    </ul>
+
+    <h3>Device and subscription information</h3>
+    <ul>
+      <li><strong>Notifications:</strong> if you allow notifications, we store a push token from Apple so we can send your daily reminder, plus your time zone so it arrives at the right hour.</li>
+      <li><strong>Subscription status:</strong> if you subscribe to EZ Money Pro, Apple processes the payment. We (through RevenueCat, see below) receive your subscription status, such as the plan, trial and renewal dates. <strong>We never see your card or payment details.</strong></li>
+    </ul>
+
+    <h3>What we don't collect</h3>
+    <ul>
+      <li>Your bank login, full account numbers or card numbers</li>
+      <li>Your contacts, photos, location or microphone</li>
+      <li>Advertising identifiers. EZ Money has no ads and no third-party analytics or tracking tools.</li>
+    </ul>
+
+    <h2>2. How we use your information</h2>
+    <ul>
+      <li>To show your transactions so you can sort them, and to build your monthly summary of spending, income and regrets</li>
+      <li>To automatically skip money moving between your own accounts (transfers and card or loan payments) and to file paychecks for you</li>
+      <li>To send the daily reminder you can switch on or off</li>
+      <li>To provide the free plan and EZ Money Pro, including counting your free sorts</li>
+      <li>To keep the service secure, fix problems and answer your support emails</li>
+    </ul>
+    <p>We don't sell your personal information or share it for advertising. We don't use your financial data to make credit, lending or insurance decisions, and we don't give it to anyone who does.</p>
+
+    <h2>3. Who we share it with</h2>
+    <p>We only share information with service providers that help run EZ Money. Each one is only allowed to use it to provide its service to us.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Provider</th><th>What it does</th><th>What it receives</th></tr></thead>
+        <tbody>
+          <tr><td>Plaid</td><td>Connects your bank and delivers your transactions</td><td>Your bank login, which goes straight to Plaid; account and transaction data. See <a href="https://plaid.com/legal/#end-user-privacy-policy" rel="noopener">Plaid's End User Privacy Policy</a>.</td></tr>
+          <tr><td>Supabase</td><td>Hosts our database and servers</td><td>All app data, stored encrypted at rest</td></tr>
+          <tr><td>Apple</td><td>Sign in with Apple, notifications, payments</td><td>Sign-in, push token and purchase information</td></tr>
+          <tr><td>RevenueCat</td><td>Keeps track of subscription status</td><td>Your anonymous app account ID and purchase history. No financial data.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We may also disclose information if the law requires it, to protect people's safety, or as part of a merger or sale of EZ Money. In that last case, this policy would continue to apply to your information.</p>
+
+    <h2>4. How we protect it</h2>
+    <ul>
+      <li>All data travels over encrypted connections (HTTPS/TLS).</li>
+      <li>The access keys Plaid gives us for your bank connections are stored encrypted, and only our servers can use them. The app on your phone never receives them.</li>
+      <li>Database rules make sure your account can only ever read your own data.</li>
+    </ul>
+    <p>No system is perfectly secure. If we ever learn of a breach that affects your information, we'll notify you as the law requires.</p>
+
+    <h2>5. How long we keep it, and deleting it</h2>
+    <ul>
+      <li>We keep your data while you have an account.</li>
+      <li><strong>Delete your account anytime</strong> in the app under <em>Settings → Delete account</em>. This immediately erases your transactions, categories, regrets and settings, and disconnects every bank at Plaid. Any remaining copies in our backups are removed within 30 days.</li>
+      <li>Removing a single bank disconnects it at Plaid and erases its access key.</li>
+      <li>Deleting your account doesn't cancel an EZ Money Pro subscription, because Apple handles billing. Cancel it in your iPhone's <em>Settings → [your name] → Subscriptions</em>.</li>
+    </ul>
+
+    <h2>6. Your choices and rights</h2>
+    <p>You can see and change your data in the app, turn notifications and income tracking on or off, disconnect banks, and delete your account. You can also email us to:</p>
+    <ul>
+      <li>get a copy of your data</li>
+      <li>correct something</li>
+      <li>delete your data</li>
+      <li>ask any question about your privacy</li>
+    </ul>
+    <p>Depending on where you live, such as California under the CCPA or the EU and UK under the GDPR, you may have additional rights. We honor these requests for every user, wherever they live, and we won't treat you differently for using them. We'll answer within 30 days.</p>
+
+    <h2>7. Children</h2>
+    <p>EZ Money is meant for people 18 and older who have their own bank accounts. We don't knowingly collect information from children under 13. If you believe a child has given us information, email us and we'll delete it.</p>
+
+    <h2>8. Where your data is processed</h2>
+    <p>EZ Money is run from the United States, and your information is stored and processed in the United States.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If we change this policy, we'll update the date at the top. If a change is significant, we'll also let you know in the app before it takes effect.</p>
+
+    <h2>10. Contact</h2>
+    <div class="contact"><div><strong>Privacy questions or requests</strong><code>ezmoneysupport@gmail.com</code></div></div>
+  </main>
+
+  <footer class="foot">
+    <div class="prose-wrap">
+      <span>© 2026 EZ Money</span>
+      <nav aria-label="Footer"><a href="./">Home</a><a href="support.html">Support</a><a href="terms.html">Terms of Use</a></nav>
+    </div>
+  </footer>
+</body>
+</html>
